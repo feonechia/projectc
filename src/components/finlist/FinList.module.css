@@ -1,0 +1,91 @@
+/* TransactionList.module.css */
+:root {
+    --bg-main: #EFF8F8;
+    --blue1: #92B2DC;
+    --blue2: #3E7FE9;
+    --blue3: #125BFB;
+    --blue4: #1953D6;
+    --gray-border: #ddd;
+}
+ 
+.container {
+    background-color: var(--bg-main);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-family: 'Pretendard', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+ 
+/* .container {
+    background-color: white;
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    padding: 30px;
+} */
+ 
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 10px;
+}
+ 
+.summaryHeader {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: 1px solid var(--blue2);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+ 
+.total {
+    color: black;
+}
+ 
+.income {
+    color: green;
+}
+ 
+.expense {
+    color: red;
+}
+ 
+.footerButtons {
+    text-align: center;
+    margin-top: 16px;
+}
+ 
+.floatingButton {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3E7FE9;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;   
+
+
+}
+ 
+.plusIcon {
+    font-size: 36px;
+    line-height: 1;
+    vertical-align: middle;
+    transform: translate(-2px, 1px);
+    color: white;
+}

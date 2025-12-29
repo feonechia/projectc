@@ -1,0 +1,101 @@
+
+.header {
+    background-color: white;
+    color: rgb(102, 102, 102);
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-start;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    z-index: 3;
+}
+
+.header .title {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start
+}
+
+.header .profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+.footer {
+    background-color: rgb(250, 232, 222);
+    color: black;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    bottom: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.sideNavbar {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebarItem {
+    font-size: 0.9rem;
+    text-align: start;
+    height: 3rem;
+}
+
+.sidebarItem .sidebarLink {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    padding: 0.5rem;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebarItem .sidebarLink:hover {
+    background-color: #92B2DC50;
+    border: #92B2DC;
+    border-radius: 10px;
+    color: white;
+}
+
+.sidebarItem .sidebarActive {
+    border-radius: 10px;
+    background-color: #3E7FE9;
+    color: white;
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+}
+
+span {
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+.utils {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}

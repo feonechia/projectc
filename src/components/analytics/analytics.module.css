@@ -1,0 +1,33 @@
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+    border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.flex-container { display: flex; justify-content: space-around; }
+
+.input {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 100px;
+  } 
+  .title {
+    border: 1px solid red;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #FAFAFA;
+    margin: 4px;
+    text-align: center;
+    padding: 4px 16px;
+  }

@@ -1,0 +1,29 @@
+/* 하얀: #EFF8F8
+블루1: #92B2DC
+블루2: #3E7FE9
+블루3: #125BFB
+블루4: #1953D6 */
+
+
+body {
+  background-color: #EFF8F8;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #EFF8F8;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+h2 {
+  font-size: 0.9rem;
+  margin: 20px auto;
+  max-width: 1000px;
+  justify-content: start;
+  flex-wrap: wrap;
+  display: flex;
+}

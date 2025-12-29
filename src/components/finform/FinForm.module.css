@@ -1,0 +1,22 @@
+.container {
+    margin: 20px auto;
+    max-width: 1000px;
+     border: 1px solid #D5D5D5;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px;
+}
+
+.expenses {
+    border-radius: 20px;
+    display: flex;
+    box-sizing: border-box;
+
+}
+.addBtn{
+    padding: 10px 20px;
+    font-size: 16;
+    background-color: #1953d6;
+    border-radius: 10px;
+    color: white;
+}
